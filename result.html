@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Your Quiz Result</h1>
+    </header>
+
+    <main>
+        <div id="result-container">
+            <p>Congratulations! You have completed the quiz.</p>
+            <p>Your score: <span id="score"></span> out of 5</p>
+            <!-- Adjust the number here based on your total questions -->
+            <button onclick="window.location.href='index.html'">Try Again</button>
+        </div>
+    </main>
+
+    <footer>&copy; All rights reserved HPTECH 2025</footer>
+
+    <script>
+        // Retrieve score from localStorage and display it
+        const score = localStorage.getItem("quizScore");
+        document.getElementById("score").innerText = score ? score : "0";
+    </script>
+</body>
+
+</html>

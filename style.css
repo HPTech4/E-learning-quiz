@@ -1,0 +1,168 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #0288d1;
+    --text-color: #333;
+    --background-color: rgb(173, 226, 222);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#quiz-header {
+    color: black;
+    background-color: lightgreen;
+    margin-top: 0;
+}
+
+header {
+    background-color: #aee7b0;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 60px;
+    /* Space for fixed footer */
+}
+
+main p {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#start {
+    width: 150px;
+    height: 45px;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+    margin-top: 20px;
+}
+
+#start:hover {
+    background-color: #0277bd;
+}
+
+.quiz-container {
+    background-color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 755px;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 300px;
+    overflow-y: auto;
+}
+
+.q1 {
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.btn {
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    min-width: 100px;
+    /* Ensure buttons are tappable */
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#prevbtn {
+    float: left;
+}
+
+#nextbtn {
+    float: right;
+}
+
+#timer {
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-right: 35px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    main {
+        max-width: 90%;
+    }
+
+    .quiz-container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+
+    #start {
+        width: 100%;
+        /* Full-width button on small screens */
+    }
+}

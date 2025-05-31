@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="quiz-header">
+        <h1>Welcome to the Inter-State E-learning Quiz</h1>
+        <p>Test your knowledge with our interactive quiz</p>
+        <div>
+            <p id="timer">Time Left: 05:00</p>
+        </div>
+    </header>
+
+    <section class="quiz-container">
+        <ol>
+            <li class="question q1">
+                <h1>1. What force pulls objects toward the center of the Earth?</h1>
+                <label for="q1-option1">
+                    <input type="radio" name="q1" id="q1-option1" value="Magnetism" class="q1"> (A) Magnetism
+                </label><br>
+                <label for="q1-option2">
+                    <input type="radio" name="q1" id="q1-option2" value="Friction" class="q1"> (B) Friction
+                </label><br>
+                <label for="q1-option3">
+                    <input type="radio" name="q1" id="q1-option3" value="Gravity" class="q1"> (C) Gravity
+                </label><br>
+                <label for="q1-option4">
+                    <input type="radio" name="q1" id="q1-option4" value="Electricity" class="q1"> (D) Electricity
+                </label>
+            </li>
+            <li class="question q2">
+                <h1>2. What is the main source of energy for life on Earth?</h1>
+                <label for="q2-option1">
+                    <input type="radio" name="q2" id="q2-option1" value="Wind" class="q1"> (A) Wind
+                </label><br>
+                <label for="q2-option2">
+                    <input type="radio" name="q2" id="q2-option2" value="The Fire" class="q1"> (B) The Fire
+                </label><br>
+                <label for="q2-option3">
+                    <input type="radio" name="q2" id="q2-option3" value="The Sun" class="q1"> (C) The Sun
+                </label><br>
+                <label for="q2-option4">
+                    <input type="radio" name="q2" id="q2-option4" value="Electricity" class="q1"> (D) Electricity
+                </label>
+            </li>
+            <li class="question q3">
+                <h1>3. What is water made of?</h1>
+                <label for="q3-option1">
+                    <input type="radio" name="q3" id="q3-option1" value="Hellium and Salt" class="q1"> (A) Hellium and
+                    Salt
+                </label><br>
+                <label for="q3-option2">
+                    <input type="radio" name="q3" id="q3-option2" value="Oxygen and Nitrogen" class="q1"> (B) Oxygen and
+                    Nitrogen
+                </label><br>
+                <label for="q3-option3">
+                    <input type="radio" name="q3" id="q3-option3" value="Hygdrogen and Nitrogen" class="q1"> (C)
+                    Hygdrogen and Nitrogen
+                </label><br>
+                <label for="q3-option4">
+                    <input type="radio" name="q3" id="q3-option4" value="Hydrogen and Oxygen" class="q1"> (D) Hydrogen
+                    and Oxygen
+                </label>
+            </li>
+            <li class="question q4">
+                <h1>4. What do plants need to make their own food?</h1>
+                <label for="q4-option1">
+                    <input type="radio" name="q4" id="q4-option1" value="Water" class="q1"> (A) Water
+                </label><br>
+                <label for="q4-option2">
+                    <input type="radio" name="q4" id="q4-option2" value="Sunlight, Water and carbon dioxide" class="q1">
+                    (B) Sunlight, Water and carbon dioxide
+                </label><br>
+                <label for="q4-option3">
+                    <input type="radio" name="q4" id="q4-option3" value="Sunlight and Nitrogen" class="q1"> (C) Sunlight
+                    and Nitrogen
+                </label><br>
+                <label for="q4-option4">
+                    <input type="radio" name="q4" id="q4-option4" value="Heat, air, and protein" class="q1"> (D) Heat,
+                    air, and protein
+                </label>
+            </li>
+            <li class="question q5">
+                <h1>5. Which of the following is a good conductor of electricity?</h1>
+                <label for="q5-option1">
+                    <input type="radio" name="q5" id="q5-option1" value="Wood" class="q1"> (A) Wood
+                </label><br>
+                <label for="q5-option2">
+                    <input type="radio" name="q5" id="q5-option2" value="Plastic" class="q1"> (B) Plastic
+                </label><br>
+                <label for="q5-option3">
+                    <input type="radio" name="q5" id="q5-option3" value="Rubber" class="q1"> (C) Rubber
+                </label><br>
+                <label for="q5-option4">
+                    <input type="radio" name="q5" id="q5-option4" value="Copper" class="q1"> (D) Copper
+                </label>
+            </li>
+        </ol><br><br><br><br>
+        <button id="prevbtn" class="btn" aria-label="Previous Question" disabled>PREVIOUS</button>
+        <button id="nextbtn" class="btn" aria-label="Next Question">NEXT</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 E-Quiz. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

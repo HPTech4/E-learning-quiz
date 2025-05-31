@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to the first-ever interstate e-learning quiz for high school science students. Challenge yourself with fun and interactive quizzes!">
+    <meta name="keywords" content="e-learning, quiz, high school, science, education">
+    <meta name="author" content="HPTech ">
+    <title>E-learning Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>WELCOME TO THE FIRST EVER INTER-STATE E-QUIZ </h1>
+        <h2>FOR HIGH SCHOOL SCIENCE STUDENTS</h2>
+    </header>
+    <main>
+        <p><i>"Challenge yourself with fun and interactive quizzes across multiple subjects. Track your progress and
+                improve your skills instantly!"</i></p>
+        <button type="submit" id="start" aria-label="Start the quiz">
+            Start Now
+        </button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 E-Quiz. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('start').addEventListener('click', () => {
+            window.location.href = 'question.html';
+        });
+    </script>
+</body>
+
+</html>
