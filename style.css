@@ -82,11 +82,9 @@ main p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-height: 300px;
     overflow-y: auto;
-}
-
-.result-container {
     margin-bottom: 95px;
 }
+
 
 .q1 {
     font-size: 1rem;
