@@ -150,7 +150,11 @@ footer {
     }
 
     .quiz-container {
-        max-width: 60%;
+        max-width: 70%;
+        margin: 10px auto;
+    }
+    .quiz-container h1{
+        font-size: 15px;
     }
 }
 
