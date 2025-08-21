@@ -84,6 +84,10 @@ main p {
     overflow-y: auto;
 }
 
+.result-container {
+    margin-bottom: 25px;
+}
+
 .q1 {
     font-size: 1rem;
     margin-top: 15px;
@@ -134,7 +138,8 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 35px;
+    position: fixed;
     bottom: 0;
     max-width: 100%;
     box-sizing: border-box;
