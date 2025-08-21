@@ -9,7 +9,17 @@ const answers = {
     q2: "The Sun",
     q3: "Hydrogen and Oxygen",
     q4: "Sunlight, Water and carbon dioxide",
-    q5: "Copper"
+    q5: "Copper",
+     q6: "Mars",
+    q7: " Oxygen",
+    q8: "Charles Babbage",
+    q9: "Paris",
+    q10: "Blue Whale",
+     q11: "Roots",
+    q12: "Africa",
+    q13: "Cheetah",
+    q14: " Pacific Ocean",
+    q15: "Yen"
 };
 
 let userAnswers = {};
