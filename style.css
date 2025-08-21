@@ -85,7 +85,7 @@ main p {
 }
 
 .result-container {
-    margin-bottom: 25px;
+    margin-bottom: 95px;
 }
 
 .q1 {
@@ -139,7 +139,7 @@ footer {
     padding: 10px;
     width: 100%;
     margin-top: 95px;
-    position: static;
+    position: fixed;
     bottom: 0;
     max-width: 100%;
     box-sizing: border-box;
